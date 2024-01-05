@@ -63,7 +63,7 @@ class Phpcpd
 
         $files = [];
         foreach ($duplication->file as $item) {
-            $files[] = $item['path'];
+            $files[] = "{$item['path']} (line {$item['line']})";
         }
 
         $message = sprintf(
