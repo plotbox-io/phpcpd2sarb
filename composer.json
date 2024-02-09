@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": "^8.0",
         "ext-simplexml": "*",
-        "symfony/console": "^5.4"
+        "symfony/console": ">=4.4"
     },
     "autoload": {
         "psr-4": { "SupportPal\\Phpcpd2Sarb\\": "src" }
@@ -20,7 +20,7 @@
     "bin": ["phpcpd2sarb"],
     "require-dev": {
         "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^9.6",
+        "phpunit/phpunit": ">=9.6",
         "supportpal/coding-standard": "^0.4.4"
     },
     "config": {
